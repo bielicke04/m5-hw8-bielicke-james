@@ -1,4 +1,9 @@
 // Create an Array of at least 3 losing messages
+var loser = [
+"Nope. Not even close.",
+"Are you dead from the neck up?",
+"Do you even have a pulse?"
+];
 
 // Create variables to count wins and losses
 
@@ -7,6 +12,7 @@
 // target all .box elements and attach a click event listener to each one using a loop
 
 // within each click event...
+
 // determine which box was clicked with 'this.textContent' or event.target.textContent
 // convert that value to a Number and store it to a variable
 

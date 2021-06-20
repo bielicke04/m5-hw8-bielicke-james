@@ -1,3 +1,11 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/******** Universal Styling ***********/
+
 :root {
   --primary-color: #6003C3;
   --white: #FFFFFF;
@@ -6,6 +14,31 @@
   --box-color-3: #A5FF01;
 }
 
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+  display:block;
+}
+
 body {
   font-family: 'Bebas Neue', Impact, sans-serif;
+}
+
+/******** Header ***********/
+
+header {
+  background-color: #6003C3;
+  height: 10vh;
+  margin: auto;
+  width: 100%;
+}
+
+h1 {
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 2px;
+
+}
+
+h1 span {
+  display: block;
 }
